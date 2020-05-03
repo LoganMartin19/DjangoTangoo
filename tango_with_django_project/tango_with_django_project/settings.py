@@ -10,7 +10,8 @@ SECRET_KEY = 'sq_z*m=yr)aiu$9lyzf@)&-!o(yjs=)9igwhuco$d7@a3jed=@'
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['loganmartin67.pythonanywhere.com']
+ALLOWED_HOSTS = ['loganmartin67.pythonanywhere.com',
+                 '127.0.0.1']
 
 LOGIN_URL = 'rango:login'
 
